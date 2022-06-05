@@ -4,7 +4,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-////
+/////
 const refs = {
   searchForm: document.querySelector('.search-form'),
   gallery: document.querySelector('.gallery'),
@@ -39,7 +39,6 @@ async function onSubmitSearchForm(e) {
   if (searchQuery === '') {
     return alert('Please enter a valid request');
   }
-  
 
   const response = await fetchImages(searchQuery, currentPage);
   currentHits = response.hits.length;
