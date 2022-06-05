@@ -99,4 +99,4 @@ var t=arguments[3];function e(t){return(e="function"==typeof Symbol&&"symbol"==t
 },{"./fetch-images":"Jhs0","../cards-search.hbs":"nbOx","notiflix/build/notiflix-notify-aio":"MeeU","simplelightbox":"yx6k","simplelightbox/dist/simple-lightbox.min.css":"clu1"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/search-image/index");
 },{"./sass/main.scss":"clu1","./js/search-image/index":"Xkdt"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11/src.1114bea6.js.map
+//# sourceMappingURL=/goit-js-hw-11/src.c070beb2.js.map
